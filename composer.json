@@ -1,0 +1,11 @@
+{
+    "name": "laravelnews/feeds",
+    "description": "Get articles from Laravel-News.com",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Laravelnews\\Feeds\\": "src/"
+        }
+    },
+    "require": {}
+}
