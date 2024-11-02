@@ -4,8 +4,17 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Laravelnews\\Feeds\\": "src/"
+            "LaravelNews\\Feed\\": "src/"
         }
     },
-    "require": {}
+    "require-dev": {
+        "pestphp/pest": "^3.5",
+        "mockery/mockery": "^1.6"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
 }
